@@ -1,0 +1,28 @@
+.wz {
+	width: 980px;
+	/*设置导航栏div的整体宽度,一般为980px*/
+	/*margin: 0px auto;*/
+	/*border: solid 1px;*/
+	/*这是用于项目测试的时候确定位置大小的边框*/
+	position: absolute;
+	/*设定使用绝对坐标对导航栏进行排版*/
+	left: 500px;
+	/*设置导航栏的左边的坐标值*/
+}
+
+.wz .lm {
+	width: 245px;
+	/*导航栏宽度/项目个数=width*/
+	float: left;
+	/*让div的显示模式为左浮动*/
+	text-align: center;
+	/*让。lm居中*/
+}
+
+.wz .lm a {
+	text-decoration: none;
+	/*去除a标签的下划线*/
+	text-align: center;
+	/*让a标签里面的文本居中显示*/
+	/*border: solid 1px;*/
+}
